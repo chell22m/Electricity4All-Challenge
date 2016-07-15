@@ -2,7 +2,7 @@
 
 (a) description of the code
 
-This solution uses the Locality-Sensitive Hashing for Finding Nearest Neighbors Algorithm to solve the problem.
+This solution uses the Hashing for Finding Nearest Neighbors Algorithm to solve the problem.
 
 (b) instructions on how the program works and how to use it:
 
