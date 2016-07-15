@@ -13,7 +13,7 @@ The original algorithm written in VBA found whether settlement locations should 
 electrical uses. The algorithm used a naive approach of a double for loop to loop over all the electrified posts in the outer loop
 and all the un-electrified posts in the inner loop, before comparing if they were close in distance.
 
-This proposed solution uses the Locality-Sensitive Hashing for Finding Nearest Neighbors Algorithm to solve the problem. The algorithm
+This proposed solution uses the Hashing for Finding Nearest Neighbors Algorithm to solve the problem. The algorithm
 only retrives the closest neighbors fullfiling the distance criteria for the un-electrified posts in the inner loop using a 2D Hash Map.
 This speeds up the algorithm significantly.
 
@@ -79,6 +79,6 @@ imported to other modules without relying on any other functions. The prompt is 
 
 ###(f) Credit
 
-- For more information on LSH: https://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf
+- For more information on the algorithm: https://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf
 - Good intro to pandas: http://pandas.pydata.org/pandas-docs/stable/10min.html
 - Documentation used to understand VBA: https://msdn.microsoft.com/en-us/library/sh9ywfdk.aspx
